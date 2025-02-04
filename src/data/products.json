@@ -1,0 +1,387 @@
+[
+    {
+        "id": 1,
+        "name": "Laptop",
+        "category": "Electronics",
+        "price": 999.99,
+        "quantity": 10,
+        "image": "https://example.com/laptop.jpg",
+        "description": "High-performance laptop for productivity and gaming."
+    },
+    {
+        "id": 2,
+        "name": "Smartphone",
+        "category": "Electronics",
+        "price": 699.99,
+        "quantity": 20,
+        "image": "https://example.com/smartphone.jpg",
+        "description": "Latest smartphone with advanced features."
+    },
+    {
+        "id": 3,
+        "name": "Headphones",
+        "category": "Electronics",
+        "price": 49.99,
+        "quantity": 30,
+        "image": "https://example.com/headphones.jpg",
+        "description": "Wireless headphones for music and calls."
+    },
+    {
+        "id": 4,
+        "name": "Tablet",
+        "category": "Electronics",
+        "price": 499.99,
+        "quantity": 15,
+        "image": "https://example.com/tablet.jpg",
+        "description": "Portable tablet for entertainment and productivity."
+    },
+    {
+        "id": 5,
+        "name": "Camera",
+        "category": "Electronics",
+        "price": 799.99,
+        "quantity": 5,
+        "image": "https://example.com/camera.jpg",
+        "description": "High-quality camera for capturing moments."
+    },
+    {
+        "id": 6,
+        "name": "Monitor",
+        "category": "Electronics",
+        "price": 599.99,
+        "quantity": 8,
+        "image": "https://example.com/monitor.jpg",
+        "description": "High-resolution monitor for productivity and entertainment."
+    },
+    {
+        "id": 7,
+        "name": "Mouse",
+        "category": "Electronics",
+        "price": 29.99,
+        "quantity": 50,
+        "image": "https://example.com/mouse.jpg",
+        "description": "Wireless mouse for productivity and gaming."
+    },
+    {
+        "id": 8,
+        "name": "Keyboard",
+        "category": "Electronics",
+        "price": 59.99,
+        "quantity": 40,
+        "image": "https://example.com/keyboard.jpg",
+        "description": "Compact keyboard for productivity and typing."
+    },
+    {
+        "id": 9,
+        "name": "Mouse Pad",
+        "category": "Electronics",
+        "price": 19.99,
+        "quantity": 60,
+        "image": "https://example.com/mousepad.jpg",
+        "description": "Soft mouse pad for comfort and durability.",
+        "attributes": {
+            "color": "Red",
+            "size": "Small"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Mouse Pad",
+        "category": "Electronics",
+        "price": 19.99,
+        "quantity": 60,
+        "image": "https://example.com/mousepad.jpg",
+        "description": "Soft mouse pad for comfort and durability.",
+        "attributes": {
+            "color": "Blue",
+            "size": "Medium"
+        }
+    },
+    {
+        "id": 11,
+        "name": "Mouse Pad",
+        "category": "Electronics",
+        "price": 19.99,
+        "quantity": 60,
+        "image": "https://example.com/mousepad.jpg",
+        "description": "Soft mouse pad for comfort and durability.",
+        "attributes": {
+            "color": "Green",
+            "size": "Large"
+        }
+    },
+    {
+        "id": 12,
+        "name": "Mouse Pad",
+        "category": "Electronics",
+        "price": 19.99,
+        "quantity": 60,
+        "image": "https://example.com/mousepad.jpg",
+        "description": "Soft mouse pad for comfort and durability.",
+        "attributes": {
+            "color": "Yellow",
+            "size": "Extra Large"
+        }
+    },
+    {
+        "id": 13,
+        "name": "Mouse Pad",
+        "category": "Electronics",
+        "price": 19.99,
+        "quantity": 60,
+        "image": "https://example.com/mousepad.jpg",
+        "description": "Soft mouse pad for comfort and durability.",
+        "attributes": {
+            "color": "Black",
+            "size": "Small"
+        }
+    },
+    {
+        "id": 14,
+        "name": "Mouse Pad",
+        "category": "Electronics",
+        "price": 19.99,
+        "quantity": 60,
+        "image": "https://example.com/mousepad.jpg",
+        "description": "Soft mouse pad for comfort and durability.",
+        "attributes": {
+            "color": "White",
+            "size": "Medium"
+        }
+    },
+    {
+        "id": 15,
+        "name": "Smart TV",
+        "category": "Electronics",
+        "price": 999.99,
+        "quantity": 10,
+        "image": "https://example.com/smarttv.jpg",
+        "description": "Big screen smart TV for entertainment."
+    },
+    {
+        "id": 16,
+        "name": "Gaming Chair",
+        "category": "Electronics",
+        "price": 199.99,
+        "quantity": 50,
+        "image": "https://example.com/gamingchair.jpg",
+        "description": "Comfortable gaming chair for long gaming sessions."
+    },
+    {
+        "id": 17,
+        "name": "Gaming Desk",
+        "category": "Electronics",
+        "price": 299.99,
+        "quantity": 40,
+        "image": "https://example.com/gamingdesk.jpg",
+        "description": "Sturdy gaming desk for holding multiple monitors."
+    },
+    {
+        "id": 18,
+        "name": "Gaming Keyboard",
+        "category": "Electronics",
+        "price": 99.99,
+        "quantity": 30,
+        "image": "https://example.com/gamingkeyboard.jpg",
+        "description": "Customizable gaming keyboard for better gaming experience."
+    },
+    {
+        "id": 19,
+        "name": "Gaming Mouse",
+        "category": "Electronics",
+        "price": 79.99,
+        "quantity": 20,
+        "image": "https://example.com/gamingmouse.jpg",
+        "description": "Accurate gaming mouse for better gaming performance."
+    },
+    {
+        "id": 20,
+        "name": "Gaming Headset",
+        "category": "Electronics",
+        "price": 149.99,
+        "quantity": 15,
+        "image": "https://example.com/gamingheadset.jpg",
+        "description": "Immersive gaming headset for better gaming experience."
+    },
+    {
+        "id": 21,
+        "name": "Gaming Controller",
+        "category": "Electronics",
+        "price": 39.99,
+        "quantity": 60,
+        "image": "https://example.com/gamingcontroller.jpg",
+        "description": "Customizable gaming controller for better gaming experience."
+    },
+    {
+        "id": 22,
+        "name": "Gaming Monitor",
+        "category": "Electronics",
+        "price": 399.99,
+        "quantity": 10,
+        "image": "https://example.com/gamingmonitor.jpg",
+        "description": "High refresh rate gaming monitor for better gaming performance."
+    },
+    {
+        "id": 23,
+        "name": "Gaming CPU",
+        "category": "Electronics",
+        "price": 199.99,
+        "quantity": 50,
+        "image": "https://example.com/gamingcpu.jpg",
+        "description": "High-performance gaming CPU for better gaming performance."
+    },
+    {
+        "id": 24,
+        "name": "Gaming GPU",
+        "category": "Electronics",
+        "price": 299.99,
+        "quantity": 40,
+        "image": "https://example.com/gaminggpu.jpg",
+        "description": "High-performance gaming GPU for better gaming performance."
+    },
+    {
+        "id": 25,
+        "name": "Gaming RAM",
+        "category": "Electronics",
+        "price": 99.99,
+        "quantity": 30,
+        "image": "https://example.com/gamingram.jpg",
+        "description": "High-performance gaming RAM for better gaming performance."
+    },
+    {
+        "id": 26,
+        "name": "Gaming Storage",
+        "category": "Electronics",
+        "price": 149.99,
+        "quantity": 20,
+        "image": "https://example.com/gamingstorage.jpg",
+        "description": "High-performance gaming storage for better gaming performance."
+    },
+    {
+        "id": 27,
+        "name": "Gaming Case",
+        "category": "Electronics",
+        "price": 29.99,
+        "quantity": 60,
+        "image": "https://example.com/gamingcase.jpg",
+        "description": "Customizable gaming case for better gaming performance."
+    },
+    {
+        "id": 28,
+        "name": "Gaming Mouse Pad",
+        "category": "Electronics",
+        "price": 19.99,
+        "quantity": 40,
+        "image": "https://example.com/gamingmousepad.jpg",
+        "description": "Soft gaming mouse pad for better gaming performance."
+    },
+    {
+        "id": 29,
+        "name": "Gaming Chair",
+        "category": "Electronics",
+        "price": 199.99,
+        "quantity": 30,
+        "image": "https://example.com/gamingchair.jpg",
+        "description": "Comfortable gaming chair for long gaming sessions."
+    },
+    {
+        "id": 30,
+        "name": "Gaming Desk",
+        "category": "Electronics",
+        "price": 299.99,
+        "quantity": 20,
+        "image": "https://example.com/gamingdesk.jpg",
+        "description": "Sturdy gaming desk for holding multiple monitors."
+    },
+    {
+        "id": 31,
+        "name": "Gaming Keyboard",
+        "category": "Electronics",
+        "price": 99.99,
+        "quantity": 50,
+        "image": "https://example.com/gamingkeyboard.jpg",
+        "description": "Customizable gaming keyboard for better gaming experience."
+    },
+    {
+        "id": 32,
+        "name": "Gaming Mouse",
+        "category": "Electronics",
+        "price": 79.99,
+        "quantity": 40,
+        "image": "https://example.com/gamingmouse.jpg",
+        "description": "Accurate gaming mouse for better gaming performance."
+    },
+    {
+        "id": 33,
+        "name": "Gaming Headset",
+        "category": "Electronics",
+        "price": 149.99,
+        "quantity": 30,
+        "image": "https://example.com/gamingheadset.jpg",
+        "description": "Immersive gaming headset for better gaming experience."
+    },
+    {
+        "id": 34,
+        "name": "Gaming Controller",
+        "category": "Electronics",
+        "price": 39.99,
+        "quantity": 60,
+        "image": "https://example.com/gamingcontroller.jpg",
+        "description": "Customizable gaming controller for better gaming experience."
+    },
+    {
+        "id": 35,
+        "name": "Gaming Monitor",
+        "category": "Electronics",
+        "price": 399.99,
+        "quantity": 10,
+        "image": "https://example.com/gamingmonitor.jpg",
+        "description": "High refresh rate gaming monitor for better gaming performance."
+    },
+    {
+        "id": 36,
+        "name": "Gaming CPU",
+        "category": "Electronics",
+        "price": 199.99,
+        "quantity": 50,
+        "image": "https://example.com/gamingcpu.jpg",
+        "description": "High-performance gaming CPU for better gaming performance."
+    },
+    {
+        "id": 37,
+        "name": "Gaming GPU",
+        "category": "Electronics",
+        "price": 299.99,
+        "quantity": 40,
+        "image": "https://example.com/gaminggpu.jpg",
+        "description": "High-performance gaming GPU for better gaming performance."
+    },
+    {
+        "id": 38,
+        "name": "Gaming RAM",
+        "category": "Electronics",
+        "price": 99.99,
+        "quantity": 30,
+        "image": "https://example.com/gamingram.jpg",
+        "description": "High-performance gaming RAM for better gaming performance."
+    },
+    {
+        "id": 39,
+        "name": "Gaming Storage",
+        "category": "Electronics",
+        "price": 149.99,
+        "quantity": 20,
+        "image": "https://example.com/gamingstorage.jpg",
+        "description": "High-performance gaming storage for better gaming performance."
+    },
+    {
+        "id": 40,
+        "name": "Gaming Case",
+        "category": "Electronics",
+        "price": 29.99,
+        "quantity": 60,
+        "image": "https://example.com/gamingcase.jpg",
+        "description": "Customizable gaming case for better gaming performance."
+    }
+]
+

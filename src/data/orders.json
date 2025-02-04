@@ -1,0 +1,510 @@
+[
+  {
+    "id": 1,
+    "customer_id": 5,
+    "products": [
+      {
+        "product_id": 101,
+        "name": "Wireless Mouse",
+        "quantity": 1,
+        "price": 25.99
+      },
+      {
+        "product_id": 202,
+        "name": "Mechanical Keyboard",
+        "quantity": 1,
+        "price": 89.99
+      }
+    ],
+    "total_price": 115.98,
+    "status": "Shipped",
+    "order_date": "2024-01-15",
+    "shipping_address": "123 Maple Street, New York, NY, 10001",
+    "payment_method": "Credit Card"
+  },
+  {
+    "id": 2,
+    "customer_id": 8,
+    "products": [
+      {
+        "product_id": 303,
+        "name": "Gaming Headset",
+        "quantity": 2,
+        "price": 49.99
+      }
+    ],
+    "total_price": 99.98,
+    "status": "Processing",
+    "order_date": "2024-01-18",
+    "shipping_address": "456 Oak Avenue, Los Angeles, CA, 90001",
+    "payment_method": "PayPal"
+  },
+  {
+    "id": 3,
+    "customer_id": 12,
+    "products": [
+      { "product_id": 404, "name": "USB-C Hub", "quantity": 1, "price": 39.99 },
+      {
+        "product_id": 505,
+        "name": "External Hard Drive",
+        "quantity": 1,
+        "price": 79.99
+      }
+    ],
+    "total_price": 119.98,
+    "status": "Delivered",
+    "order_date": "2024-01-12",
+    "shipping_address": "789 Pine Road, Chicago, IL, 60601",
+    "payment_method": "Debit Card"
+  },
+  {
+    "id": 4,
+    "customer_id": 15,
+    "products": [
+      {
+        "product_id": 606,
+        "name": "Smartphone Stand",
+        "quantity": 1,
+        "price": 19.99
+      }
+    ],
+    "total_price": 19.99,
+    "status": "Pending",
+    "order_date": "2024-01-20",
+    "shipping_address": "321 Birch Lane, Houston, TX, 77001",
+    "payment_method": "Apple Pay"
+  },
+  {
+    "id": 5,
+    "customer_id": 20,
+    "products": [
+      {
+        "product_id": 707,
+        "name": "Bluetooth Speaker",
+        "quantity": 1,
+        "price": 59.99
+      },
+      {
+        "product_id": 808,
+        "name": "Portable Charger",
+        "quantity": 2,
+        "price": 29.99
+      }
+    ],
+    "total_price": 119.97,
+    "status": "Shipped",
+    "order_date": "2024-01-10",
+    "shipping_address": "654 Cedar Drive, Phoenix, AZ, 85001",
+    "payment_method": "Google Pay"
+  },
+  {
+    "id": 6,
+    "customer_id": 22,
+    "products": [
+      { "product_id": 909, "name": "Smart TV", "quantity": 1, "price": 499.99 }
+    ],
+    "total_price": 499.99,
+    "status": "Processing",
+    "order_date": "2024-01-22",
+    "shipping_address": "987 Oak Street, San Francisco, CA, 94101",
+    "payment_method": "Credit Card"
+  },
+  {
+    "id": 7,
+    "customer_id": 25,
+    "products": [
+      {
+        "product_id": 1010,
+        "name": "Fitness Tracker",
+        "quantity": 1,
+        "price": 49.99
+      }
+    ],
+    "total_price": 49.99,
+    "status": "Delivered",
+    "order_date": "2024-01-25",
+    "shipping_address": "345 Maple Avenue, Miami, FL, 33101",
+    "payment_method": "PayPal"
+  },
+  {
+    "id": 8,
+    "customer_id": 28,
+    "products": [
+      {
+        "product_id": 1111,
+        "name": "Gaming Chair",
+        "quantity": 1,
+        "price": 199.99
+      }
+    ],
+    "total_price": 199.99,
+    "status": "Shipped",
+    "order_date": "2024-01-28",
+    "shipping_address": "567 Pine Road, Seattle, WA, 98101",
+    "payment_method": "Debit Card"
+  },
+  {
+    "id": 9,
+    "customer_id": 30,
+    "products": [
+      {
+        "product_id": 1212,
+        "name": "Wireless Earbuds",
+        "quantity": 2,
+        "price": 99.99
+      }
+    ],
+    "total_price": 199.98,
+    "status": "Pending",
+    "order_date": "2024-01-30",
+    "shipping_address": "234 Cedar Drive, Denver, CO, 80201",
+    "payment_method": "Apple Pay"
+  },
+  {
+    "id": 10,
+    "customer_id": 35,
+    "products": [
+      {
+        "product_id": 1313,
+        "name": "Portable Wi-Fi Router",
+        "quantity": 1,
+        "price": 39.99
+      }
+    ],
+    "total_price": 39.99,
+    "status": "Delivered",
+    "order_date": "2024-02-01",
+    "shipping_address": "890 Oak Avenue, Dallas, TX, 75201",
+    "payment_method": "Google Pay"
+  },
+  {
+    "id": 11,
+    "customer_id": 40,
+    "products": [
+      {
+        "product_id": 1414,
+        "name": "Smartphone Case",
+        "quantity": 2,
+        "price": 29.99
+      }
+    ],
+    "total_price": 59.98,
+    "status": "Shipped",
+    "order_date": "2024-02-03",
+    "shipping_address": "456 Pine Road, San Jose, CA, 95101",
+    "payment_method": "Credit Card"
+  },
+  {
+    "id": 12,
+    "customer_id": 45,
+    "products": [
+      {
+        "product_id": 1515,
+        "name": "External SSD",
+        "quantity": 1,
+        "price": 79.99
+      }
+    ],
+    "total_price": 79.99,
+    "status": "Processing",
+    "order_date": "2024-02-05",
+    "shipping_address": "321 Maple Street, New York, NY, 10001",
+    "payment_method": "PayPal"
+  },
+  {
+    "id": 13,
+    "customer_id": 48,
+    "products": [
+      {
+        "product_id": 1616,
+        "name": "Smart Speaker",
+        "quantity": 1,
+        "price": 99.99
+      }
+    ],
+    "total_price": 99.99,
+    "status": "Delivered",
+    "order_date": "2024-02-07",
+    "shipping_address": "654 Oak Avenue, Los Angeles, CA, 90001",
+    "payment_method": "Debit Card"
+  },
+  {
+    "id": 14,
+    "customer_id": 52,
+    "products": [
+      {
+        "product_id": 1717,
+        "name": "Gaming Mouse",
+        "quantity": 1,
+        "price": 49.99
+      }
+    ],
+    "total_price": 49.99,
+    "status": "Pending",
+    "order_date": "2024-02-09",
+    "shipping_address": "789 Pine Road, Chicago, IL, 60601",
+    "payment_method": "Apple Pay"
+  },
+  {
+    "id": 15,
+    "customer_id": 55,
+    "products": [
+      {
+        "product_id": 1818,
+        "name": "Wireless Keyboard",
+        "quantity": 1,
+        "price": 59.99
+      }
+    ],
+    "total_price": 59.99,
+    "status": "Shipped",
+    "order_date": "2024-02-11",
+    "shipping_address": "234 Cedar Drive, Denver, CO, 80201",
+    "payment_method": "Google Pay"
+  },
+  {
+    "id": 16,
+    "customer_id": 60,
+    "products": [
+      {
+        "product_id": 1919,
+        "name": "Portable Charger",
+        "quantity": 2,
+        "price": 29.99
+      }
+    ],
+    "total_price": 59.98,
+    "status": "Delivered",
+    "order_date": "2024-02-13",
+    "shipping_address": "567 Pine Road, Seattle, WA, 98101",
+    "payment_method": "Credit Card"
+  },
+  {
+    "id": 17,
+    "customer_id": 65,
+    "products": [
+      { "product_id": 2020, "name": "Smart TV", "quantity": 1, "price": 499.99 }
+    ],
+    "total_price": 499.99,
+    "status": "Processing",
+    "order_date": "2024-02-15",
+    "shipping_address": "890 Oak Avenue, Dallas, TX, 75201",
+    "payment_method": "PayPal"
+  },
+  {
+    "id": 18,
+    "customer_id": 70,
+    "products": [
+      {
+        "product_id": 2121,
+        "name": "Fitness Tracker",
+        "quantity": 1,
+        "price": 49.99
+      }
+    ],
+    "total_price": 49.99,
+    "status": "Pending",
+    "order_date": "2024-02-17",
+    "shipping_address": "456 Pine Road, San Jose, CA, 95101",
+    "payment_method": "Debit Card"
+  },
+  {
+    "id": 19,
+    "customer_id": 75,
+    "products": [
+      {
+        "product_id": 2222,
+        "name": "Gaming Chair",
+        "quantity": 1,
+        "price": 199.99
+      }
+    ],
+    "total_price": 199.99,
+    "status": "Shipped",
+    "order_date": "2024-02-19",
+    "shipping_address": "321 Maple Street, New York, NY, 10001",
+    "payment_method": "Apple Pay"
+  },
+  {
+    "id": 20,
+    "customer_id": 80,
+    "products": [
+      {
+        "product_id": 2323,
+        "name": "Wireless Earbuds",
+        "quantity": 2,
+        "price": 99.99
+      }
+    ],
+    "total_price": 199.98,
+    "status": "Delivered",
+    "order_date": "2024-02-21",
+    "shipping_address": "654 Oak Avenue, Los Angeles, CA, 90001",
+    "payment_method": "Google Pay"
+  },
+  {
+    "id": 21,
+    "customer_id": 85,
+    "products": [
+      {
+        "product_id": 2424,
+        "name": "Portable Wi-Fi Router",
+        "quantity": 1,
+        "price": 39.99
+      }
+    ],
+    "total_price": 39.99,
+    "status": "Shipped",
+    "order_date": "2024-02-23",
+    "shipping_address": "789 Pine Road, Chicago, IL, 60601",
+    "payment_method": "Credit Card"
+  },
+  {
+    "id": 22,
+    "customer_id": 90,
+    "products": [
+      {
+        "product_id": 2525,
+        "name": "Smartphone Case",
+        "quantity": 2,
+        "price": 29.99
+      }
+    ],
+    "total_price": 59.98,
+    "status": "Processing",
+    "order_date": "2024-02-25",
+    "shipping_address": "234 Cedar Drive, Denver, CO, 80201",
+    "payment_method": "PayPal"
+  },
+  {
+    "id": 23,
+    "customer_id": 95,
+    "products": [
+      {
+        "product_id": 2626,
+        "name": "External SSD",
+        "quantity": 1,
+        "price": 79.99
+      }
+    ],
+    "total_price": 79.99,
+    "status": "Delivered",
+    "order_date": "2024-02-27",
+    "shipping_address": "567 Pine Road, Seattle, WA, 98101",
+    "payment_method": "Debit Card"
+  },
+  {
+    "id": 24,
+    "customer_id": 100,
+    "products": [
+      {
+        "product_id": 2727,
+        "name": "Smart Speaker",
+        "quantity": 1,
+        "price": 99.99
+      }
+    ],
+    "total_price": 99.99,
+    "status": "Pending",
+    "order_date": "2024-02-29",
+    "shipping_address": "890 Oak Avenue, Dallas, TX, 75201",
+    "payment_method": "Apple Pay"
+  },
+  {
+    "id": 25,
+    "customer_id": 105,
+    "products": [
+      {
+        "product_id": 2828,
+        "name": "Gaming Mouse",
+        "quantity": 1,
+        "price": 49.99
+      }
+    ],
+    "total_price": 49.99,
+    "status": "Shipped",
+    "order_date": "2024-03-01",
+    "shipping_address": "123 Maple Street, New York, NY, 10001",
+    "payment_method": "Google Pay"
+  },
+  {
+    "id": 26,
+    "customer_id": 110,
+    "products": [
+      {
+        "product_id": 2929,
+        "name": "Wireless Keyboard",
+        "quantity": 1,
+        "price": 59.99
+      }
+    ],
+    "total_price": 59.99,
+    "status": "Processing",
+    "order_date": "2024-03-03",
+    "shipping_address": "456 Oak Avenue, Los Angeles, CA, 90001",
+    "payment_method": "Credit Card"
+  },
+  {
+    "id": 27,
+    "customer_id": 115,
+    "products": [
+      {
+        "product_id": 3030,
+        "name": "Portable Charger",
+        "quantity": 2,
+        "price": 29.99
+      }
+    ],
+    "total_price": 59.98,
+    "status": "Delivered",
+    "order_date": "2024-03-05",
+    "shipping_address": "789 Pine Road, Chicago, IL, 60601",
+    "payment_method": "PayPal"
+  },
+  {
+    "id": 28,
+    "customer_id": 120,
+    "products": [
+      { "product_id": 3131, "name": "Smart TV", "quantity": 1, "price": 499.99 }
+    ],
+    "total_price": 499.99,
+    "status": "Pending",
+    "order_date": "2024-03-07",
+    "shipping_address": "654 Cedar Drive, Phoenix, AZ, 85001",
+    "payment_method": "Debit Card"
+  },
+  {
+    "id": 29,
+    "customer_id": 125,
+    "products": [
+      {
+        "product_id": 3232,
+        "name": "Fitness Tracker",
+        "quantity": 1,
+        "price": 49.99
+      }
+    ],
+    "total_price": 49.99,
+    "status": "Shipped",
+    "order_date": "2024-03-09",
+    "shipping_address": "987 Oak Street, San Francisco, CA, 94101",
+    "payment_method": "Apple Pay"
+  },
+  {
+    "id": 30,
+    "customer_id": 130,
+    "products": [
+      {
+        "product_id": 3333,
+        "name": "Gaming Chair",
+        "quantity": 1,
+        "price": 199.99
+      }
+    ],
+    "total_price": 199.99,
+    "status": "Processing",
+    "order_date": "2024-03-11",
+    "shipping_address": "321 Birch Lane, Houston, TX, 77001",
+    "payment_method": "Google Pay"
+  }
+]
