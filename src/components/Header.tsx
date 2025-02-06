@@ -1,4 +1,3 @@
-import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { AiOutlineBell } from "react-icons/ai";
 
@@ -11,10 +10,10 @@ const Header = () => {
         placeholder="Search"
       />
       <div className="flex gap-4">
-        <button className=" w-10 h-10 bg-gray-200 rounded-md flex justify-center items-center">
+        <button className=" w-10 h-10 shadow-md rounded-md flex justify-center items-center">
           <AiOutlineMail size={20} />
         </button>
-        <button className=" w-10 h-10 bg-gray-200 rounded-md flex justify-center items-center">
+        <button className=" w-10 h-10 shadow-md rounded-md flex justify-center items-center">
           <AiOutlineBell size={20} />
         </button>
         <div className="flex items-center gap-2 border-l-2 px-2 border-slate-200">

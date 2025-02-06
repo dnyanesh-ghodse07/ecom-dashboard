@@ -1,4 +1,4 @@
-import React from 'react'
+
 import customers from '../data/customers.json';
 import { Table } from 'antd'
 interface Customer {

@@ -59,7 +59,7 @@ const MyLineChart: React.FC<{ data: DataPoint[] }> = ({ data }) => {
 };
 
 
-function numberToShortString(number) {
+function numberToShortString(number: number) {
   if (number >= 1e9) {
     return `${(number / 1e9).toFixed(1)}B`; // Billions
   } else if (number >= 1e6) {

@@ -1,4 +1,5 @@
 import React from 'react'
+import { PieChart, Pie, Cell, ResponsiveContainer } from 'recharts';
 
 const ProductSold = () => {
   const productSalesData: ProductData[] = [
@@ -16,12 +17,6 @@ const ProductSold = () => {
 
 export default ProductSold;
 
-
-
-
-
-import { PieChart, Pie, Legend, Cell, ResponsiveContainer } from 'recharts';
-
 interface ProductData {
   name: string;
   value: number;
@@ -32,7 +27,15 @@ const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#8DD1E7', '#A05195'
 const ProductPieChart: React.FC<{ data: ProductData[] }> = ({ data }) => {
 
   const RADIAN = Math.PI / 180;
-  const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent, index }: any) => {
+  const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent, index }: {
+    cx: number;
+    cy: number;
+    midAngle: number;
+    innerRadius: number;
+    outerRadius: number;
+    percent: number;
+    index: number;
+  }) => {
     const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
     const x = cx + radius * Math.cos(-midAngle * RADIAN);
     const y = cy + radius * Math.sin(-midAngle * RADIAN);
@@ -57,7 +60,7 @@ const ProductPieChart: React.FC<{ data: ProductData[] }> = ({ data }) => {
           fill="#8884d8"
           label={renderCustomizedLabel} // Use custom label
         >
-          {data.map((entry, index) => (
+          {data.map((_, index) => (
             <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} /> // Apply colors
           ))}
         </Pie>
