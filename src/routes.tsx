@@ -7,8 +7,8 @@ import { Home } from "./pages/Home";
 import Analytics from "./pages/Analytics";
 import Products from "./pages/Products";
 import Shipments from "./pages/Shipments";
-import Settings from "./pages/settings";
 import Customers from "./pages/Customers";
+import Settings from "./pages/Settings";
 
 const Routers = () => {
   return (
