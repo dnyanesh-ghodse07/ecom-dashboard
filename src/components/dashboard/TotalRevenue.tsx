@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import moment from "moment";
 import {
   LineChart,
@@ -10,21 +10,9 @@ import {
   Legend,
   ResponsiveContainer,
 } from "recharts";
+import chartData from '../../data/revenue.json';
 
 const TotalRevenue = () => {
-  const [chartData, setChartData] = useState<DataPoint[]>([]);
-
-  const fetchData = async () => {
-    const response = await fetch("../../../src/data/revenue.json");
-    const data = await response.json();
-    console.log("data");
-    setChartData(data);
-  };
-
-  useEffect(() => {
-    fetchData();
-  }, []);
-
   const totalRevenue = chartData.reduce((sum, item) => sum + item.amount, 0);
 
   return (
