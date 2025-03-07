@@ -9,8 +9,7 @@ import {
   Switch,
   Table,
 } from "antd";
-import { useGetProductsQuery } from "../redux/appWriteApi";
-import products from "../data/products.json";
+import { useCreateProductMutation, useGetProductsQuery } from "../redux/appWriteApi";
 import {useState } from "react";
 
 interface Product {
@@ -21,6 +20,12 @@ interface Product {
   quantity: number;
   image: string;
   description: string;
+  brand: string,
+  rating: number,
+  isFeatured: boolean,
+  status: string,
+  stock: number,
+  reviewsCount: number,
 }
 
 const columns = [
@@ -35,6 +40,11 @@ const columns = [
     key: "name",
   },
   {
+    title: "Brand",
+    dataIndex: "brand",
+    key: "brand", 
+  },
+  {
     title: "Category",
     dataIndex: "category",
     key: "category",
@@ -45,38 +55,68 @@ const columns = [
     key: "price",
   },
   {
-    title: "Quantity",
-    dataIndex: "quantity",
-    key: "quantity",
+    title: "Stock",
+    dataIndex: "stock",
+    key: "stock",
   },
   {
     title: "Description",
     dataIndex: "description",
     key: "description",
   },
+  {
+    title: "Rating",
+    dataIndex: "rating",
+    key: "rating",
+  },
+  {
+    title: "Status",
+    dataIndex: "status",
+    key: "status",
+  },
 ];
 const Products = () => {
   const [modalVisible, setModalVisible] = useState(false);
 
-  const {data} = useGetProductsQuery({});
+  const {data: products, isLoading} = useGetProductsQuery({});
+  const [createProduct] = useCreateProductMutation({});
 
-  console.log('data', data)
+  console.log('data', products)
 
-  const dataSource: Product[] = products?.map((product) => {
+  const dataSource: Product[] = products?.map((product: Product, index: number) => {
     return {
-      id: product.id,
+      id: index + 1,
       name: product.name,
       category: product.category,
       price: product.price,
       quantity: product.quantity,
       image: product.image,
       description: product.description,
+      brand: product.brand,
+      rating: product.rating,
+      isFeatured: product.isFeatured,
+      status: product.status,
+      stock: product.stock,
+      reviewsCount: product.reviewsCount,
     };
   });
+  if (isLoading) {
+    return (
+      <div className="flex items-center justify-center h-full">
+        <p>Loading...</p>
+      </div>
+    );
+  }
 
-  // useEffect(() => {
-  //   getProducts()
-  // },[])
+  const handleCreateProduct = async (values) => {
+    try {
+      console.log('values', values);
+      await createProduct(values).unwrap();
+      setModalVisible(false);
+    } catch (error) {
+      console.error("Failed to create product:", error);
+    }
+  }
 
   return (
     <div className="bg-white rounded-xl p-4 h-[calc(100%-5rem)]">
@@ -90,7 +130,7 @@ const Products = () => {
             onCancel={() => setModalVisible(false)}
             footer={null}
           >
-            <Form layout="vertical" onFinish={() => {}}>
+            <Form layout="vertical" onFinish={(values) => handleCreateProduct(values)}>
               <Row gutter={16}>
                 {/* Product Name */}
                 <Col span={12}>
@@ -233,7 +273,7 @@ const Products = () => {
           scroll={{ x: "max-content" }}
           dataSource={dataSource}
           columns={columns}
-          rowKey="id"
+          rowKey={(record) => record.id}
           sticky
         />
       </div>

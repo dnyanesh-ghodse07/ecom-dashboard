@@ -15,15 +15,15 @@ import { RootState } from "../redux/store";
 import Dashboard from "../pages/Dashboard";
 
 const Routers = () => {
-  const {
-    auth: { user },
-  } = useSelector((state: RootState) => state);
+  const { isAuthenticated } = useSelector((state: RootState) => state.auth);
   return (
     <Routes>
       <Route path="/register" element={<Register />} />
       <Route
         path="/login"
-        element={user ? <Navigate to="/dashboard" replace /> : <Login />}
+        element={
+          isAuthenticated ? <Navigate to="/dashboard" replace /> : <Login />
+        }
       />
       <Route path="/" element={<ProtectedRoute />}>
         <Route path="dashboard" element={<Dashboard />}>
